@@ -1,0 +1,60 @@
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top:50px;
+}
+.kashee{
+  color:#00ced1;
+  font-size:0;
+  line-height: 1.5;
+}
+.kashee span{
+  font-size:5rem;
+  display:inline-block;
+  animation:move 3s ease-in-out infinite;
+}
+@keyframes move{
+  0%{
+    transform: translate(-30%, 0);
+  }
+  50%{
+    text-shadow: 0 25px 50px rgba(0,0,0,0.75);
+  }
+  100%{
+    transform: translate(30%, 0);
+  }
+}
+.kashee span:nth-child(2) {
+  animation-delay: 0.5s;
+}
+.kashee span:nth-child(3){
+  animation-delay:1s;
+}
+.kashee span:nth-child(4){
+  animation-delay:1.5s;
+}
+.kashee span:nth-child(5){
+  animation-delay:2s;
+}
+.kashee span:nth-child(6){
+  animation-delay:2.5s;
+}
+.kashee span:nth-child(7){
+  animation-delay:3s;
+}
+.kashee span:nth-child(8){
+  animation-delay:3.5s;
+}
+.kashee span:nth-child(9){
+  animation-delay:4s;
+}
+.kashee span:nth-child(10){
+  animation-delay:4.5s;
+}
+.kashee span:nth-child(11){
+  animation-delay:5s;
+}
+.kashee span:nth-child(12){
+  animation-delay:5.5s;
+}
