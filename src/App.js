@@ -46,6 +46,10 @@ function App(){
     <div className='trial'>
      <h1><span>Welcome</span> space!!<span></span></h1>
       </div>
+
+      <div className='intro'>
+        <button className='expand'><p><span>Welcome</span>!<span></span></p></button>
+      </div>
       </>
   )
 }

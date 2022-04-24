@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Festive&family=Great+Vibes&family=Lobster&family=Redressed&family=Road+Rage&family=Sansita+Swashed:wght@300&family=Satisfy&family=Syne+Mono&family=ZCOOL+QingKe+HuangYou&display=swap');
+
 .App{
   display: flex;
   justify-content: center;
@@ -76,4 +78,42 @@ h1:hover span{
   text-shadow: 0 0 10px #701c1c,
                0 0 20px #7f1734, 
                0 0 40px #592720;
+}
+.intro{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.expand{
+  padding:10px 50px;
+  border-radius: 10px 50px;
+  border:transparent;
+  background: url(Images/expand_1.jpg) center/cover no-repeat;
+  object-fit: contain;
+  animation:bounce 2s ease 3;
+}
+@keyframes bounce{
+  from{
+    transform:scaleX(1);
+  }
+}
+.intro p{
+  color:#f0fff0;
+  font-size:20px;
+}
+.intro p span{
+  transition:.5s linear;
+  cursor: pointer;
+  letter-spacing: 0.187em;
+  line-height:1.5;
+  font-family: 'Redressed', cursive;
+}
+p:hover span:nth-child(1){
+  margin-right:5px;
+}
+p:hover span:nth-child(1)::before{
+  content:"Hey beautiful people "
+}
+p:hover span:nth-child(1)::after{
+  content:" to my creative space and enjoy your stay"
 }
