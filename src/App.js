@@ -7,6 +7,7 @@ import './App.css';
 function App(){
  
   return (
+    <>
     <div className='App'>
        
         <div className='kashee info'>
@@ -40,8 +41,12 @@ function App(){
           <span>c</span>
           <span>e</span>
        </div>
+      
     </div>
-    
+    <div className='trial'>
+     <h1><span>Welcome</span> space!!<span></span></h1>
+      </div>
+      </>
   )
 }
 

@@ -58,3 +58,22 @@
 .kashee span:nth-child(12){
   animation-delay:5.5s;
 }
+.trial h1 span{
+  margin-left:100px;
+  transition: .5s linear;
+}
+h1:hover span:nth-child(1){
+  margin-right: 5px;
+}
+h1:hover span:nth-child(1)::after {
+     content: " to my creative "
+}
+h1:hover span:nth-child(2){
+  margin-left:30px;
+}
+h1:hover span{
+  color:#800000;
+  text-shadow: 0 0 10px #701c1c,
+               0 0 20px #7f1734, 
+               0 0 40px #592720;
+}
