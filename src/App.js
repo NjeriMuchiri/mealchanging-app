@@ -1,5 +1,6 @@
 import React from 'react'
 import './App.css';
+import StateTutorial from './Components/StateTutorial';
 // import culinary from './Images/culinaryd.jpg';
 // import restraunt from './Images/restrauntk.jpg';
 // import wine from './Images/wine5.JPG';
@@ -8,7 +9,7 @@ function App(){
  
   return (
     <>
-    <div className='App'>
+   {/*  <div className='App'>
        
         <div className='kashee info'>
           <span>W</span>
@@ -49,7 +50,8 @@ function App(){
 
       <div className='intro'>
         <button className='expand'><p><span>Welcome</span>!<span></span></p></button>
-      </div>
+      </div> */}
+      <StateTutorial />
       </>
   )
 }

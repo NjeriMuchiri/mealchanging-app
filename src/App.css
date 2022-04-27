@@ -88,13 +88,13 @@ h1:hover span{
   padding:10px 50px;
   border-radius: 10px 50px;
   border:transparent;
-  background: url(Images/expand_1.jpg) center/cover no-repeat;
+  background: url(Images/expand.jpg) center/cover no-repeat;
   object-fit: contain;
-  animation:bounce 2s ease 3;
+  animation:bounce .3s ease 5 alternate;
 }
 @keyframes bounce{
-  from{
-    transform:scaleX(1);
+  to{
+    transform:scale(1.2);
   }
 }
 .intro p{
