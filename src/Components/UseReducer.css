@@ -1,0 +1,29 @@
+::after,
+::before{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.reducer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.reducer-count{
+    color:darkcyan;
+    font-size: 40px;
+    font-weight:400;
+}
+.reducer-text{
+    color:teal;
+    font-family:'Courier New', Courier, monospace;
+}
+.reducer-btn{
+    padding:10px 15px;
+    border-color:transparent;
+    background-color:coral;
+    border-radius: 30px;
+    letter-spacing: 0.1em;
+    color:aliceblue;
+}
