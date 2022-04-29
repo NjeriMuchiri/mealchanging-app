@@ -1,6 +1,7 @@
 import React from 'react'
 import './App.css';
 import StateTutorial from './Components/StateTutorial';
+import UseEffect from './Components/UseEffect';
 import UseReducer from './Components/UseReducer';
 // import culinary from './Images/culinaryd.jpg';
 // import restraunt from './Images/restrauntk.jpg';
@@ -54,6 +55,7 @@ function App(){
       </div> */}
       <StateTutorial />
       <UseReducer />
+      <UseEffect />
       </>
   )
 }
