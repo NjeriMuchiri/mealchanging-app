@@ -2,6 +2,7 @@ import React from 'react'
 import './App.css';
 import Context from './Components/Context';
 import ImperativeHandle from './Components/ImperativeHandle';
+import Memo from './Components/Memo';
 import StateTutorial from './Components/StateTutorial';
 import UseEffect from './Components/UseEffect';
 import UseReducer from './Components/UseReducer';
@@ -64,6 +65,7 @@ function App(){
       <ImperativeHandle />
       <LayoutEffect />
       <Context />
+      <Memo />
       </>
   )
 }
