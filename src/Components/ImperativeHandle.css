@@ -1,0 +1,22 @@
+::before,
+::after{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+.handle-div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height:50vh;
+}
+.handle{
+    padding: 10px 20px;
+    margin-top:10px;
+    background-color: aquamarine;
+    border:transparent;
+    border-radius: 20px;
+    cursor:pointer;
+    color:#696969;
+}

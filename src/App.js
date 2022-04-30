@@ -1,8 +1,11 @@
 import React from 'react'
 import './App.css';
+import ImperativeHandle from './Components/ImperativeHandle';
 import StateTutorial from './Components/StateTutorial';
 import UseEffect from './Components/UseEffect';
 import UseReducer from './Components/UseReducer';
+import UseRef from './Components/UseRef';
+import LayoutEffect from './LayoutEffect';
 // import culinary from './Images/culinaryd.jpg';
 // import restraunt from './Images/restrauntk.jpg';
 // import wine from './Images/wine5.JPG';
@@ -56,6 +59,9 @@ function App(){
       <StateTutorial />
       <UseReducer />
       <UseEffect />
+      <UseRef />
+      <ImperativeHandle />
+      <LayoutEffect />
       </>
   )
 }
