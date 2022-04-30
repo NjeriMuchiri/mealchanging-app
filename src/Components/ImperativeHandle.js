@@ -1,15 +1,21 @@
-import React from 'react'
-import Button from './Button'
-import '../Components/ImperativeHandle.css'
+import React, {useRef} from 'react';
+import Button from './Button';
+import '../Components/ImperativeHandle.css';
+
+
 function ImperativeHandle() {
+    const buttonRef = useRef(null)
   return (
     <div className='handle-div'>
-        <button className='handle'>
+        <button 
+        onClick={() =>
+             {buttonRef.current.alterToggle()}} 
+        className='handle' >
             Button From Parent
         </button>
-        <Button />
+        <Button ref={buttonRef}/>
     </div>
   )
 }
 
-export default ImperativeHandle
+export default ImperativeHandle;
