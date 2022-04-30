@@ -1,5 +1,6 @@
 import React from 'react'
 import './App.css';
+import Context from './Components/Context';
 import ImperativeHandle from './Components/ImperativeHandle';
 import StateTutorial from './Components/StateTutorial';
 import UseEffect from './Components/UseEffect';
@@ -62,6 +63,7 @@ function App(){
       <UseRef />
       <ImperativeHandle />
       <LayoutEffect />
+      <Context />
       </>
   )
 }
