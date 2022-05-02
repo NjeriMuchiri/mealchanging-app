@@ -8,6 +8,8 @@ import UseEffect from './Components/UseEffect';
 import UseReducer from './Components/UseReducer';
 import UseRef from './Components/UseRef';
 import LayoutEffect from './LayoutEffect';
+import UseCallback from './Components/UseCallback';
+
 // import culinary from './Images/culinaryd.jpg';
 // import restraunt from './Images/restrauntk.jpg';
 // import wine from './Images/wine5.JPG';
@@ -66,6 +68,7 @@ function App(){
       <LayoutEffect />
       <Context />
       <Memo />
+      <UseCallback />
       </>
   )
 }
