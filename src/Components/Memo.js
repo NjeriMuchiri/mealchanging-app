@@ -26,7 +26,7 @@ export default function Memo() {
        return longestName;
        };
 
-       const getLongestName = useMemo(() => findLongestName(data),[toggle]);
+       const getLongestName = useMemo(() => findLongestName(data),[data]);
 
        return(
            <div className='App'>
