@@ -8,7 +8,7 @@ import UseEffect from './Components/UseEffect';
 import UseReducer from './Components/UseReducer';
 import UseRef from './Components/UseRef';
 import LayoutEffect from './LayoutEffect';
-import UseCallback from './Components/UseCallback';
+import UseCallbackPrac from './Components/UseCallbackPrac';
 
 // import culinary from './Images/culinaryd.jpg';
 // import restraunt from './Images/restrauntk.jpg';
@@ -68,7 +68,7 @@ function App(){
       <LayoutEffect />
       <Context />
       <Memo />
-      <UseCallback />
+      <UseCallbackPrac />
       </>
   )
 }

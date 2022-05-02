@@ -1,14 +1,15 @@
 import axios from "axios";
-import React, {useState} from "react";
+import React, {useState,useCallback} from "react";
 import Child from "./Child";
 
-export default function useCallback() {
+export default function useCallbackPrac() {
     const [toggle,setToggle] = useState(false);
     const[data,setData] = useState("Yoh, Welkum to my creative space!")
 
-    const returnComment = () =>{
-        return data;
-    }
+    const returnComment =useCallback((name) =>{
+        return data + name;
+    }, [data] );
+
 
     return(
         <>
