@@ -12,7 +12,7 @@ export default function useCallback() {
 
     return(
         <>
-      <div className="App">
+      <div className="App" style={{minHeight: 120}}>
          <Child returnComment = {returnComment}/>
 
          <button
